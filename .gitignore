@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# TypeScript
+*.tsbuildinfo
+dist/
+build/
+
+# CDK
+cdk.out/
+.cdk.staging/
+
+# React (Frontend)
+Frontend/build/
+Frontend/node_modules/
+Frontend/.env
+Frontend/.DS_Store
+
+# Logs
+*.log
+
+# SonarQube
+.sonar/
+.sonarlint/
+
+# Environment files
+.env
+.env.*.local
